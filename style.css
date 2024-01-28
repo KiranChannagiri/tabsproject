@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Roboto', sans-serif;
+}
+h1
+{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 30px;
+    color: #071013;
+}
+#intro 
+{
+    text-align: center;
+    line-height: 1.2;
+    font-size: 1.1rem;
+    color: #071013;
+}
+body 
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: #23B5D3;
+    overflow: hidden;
+}
+.conatiner 
+{
+    width: 80%;
+    height: 70%;
+    background-color: white;
+    margin-top: 10px;
+    margin-inline: auto;
+    border-radius: 20px;
+    display: flex;
+}
+.leftpart,.rightpart{
+    width: 50%;
+    height: 100%;
+} 
+.leftpart 
+{
+    background-image: url("floyd.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.rightnav 
+{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    justify-content: space-evenly;
+}
+.lightwhte 
+{
+    background-color:#B9CDDA;
+    transition: 0.5s all;
+}
+.rightnav div 
+{
+   width: 33.33%;
+   height: 100%;
+}
+.rounded-tr
+{
+    border-top-right-radius: 20px;
+}
+.center 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.lightwhte:hover{
+    background-color:#D7DAE5 ;
+    color: rgba(90, 90, 246, 0.951);
+}
+.content 
+{
+    width: 100%;
+    height: 85%;
+    background-color: #DAC4F7;
+    color: rgba(0, 0, 0, 0.487);
+    border-bottom-right-radius: 20px;
+    padding: 40px;
+    text-align: justify;
+    font-size: 1.4rem;
+}
+.legacy:hover 
+{
+    color: rgba(90, 90, 246, 0.951);
+} 
